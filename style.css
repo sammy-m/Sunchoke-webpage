@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+div.navi{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+nav{
+    height: 100%;
+}
+div.menu{
+    height: 100%;
+}
+.expanded-menu{
+    float: right;
+    min-width: fit-content;
+    width: 50%;
+    max-width: 800px;
+}
+.expanded-menu .menu-options .expanded-menu-ul{
+    list-style: none;
+    float: right;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.expanded-menu-ul li{
+    display: block;
+    float: right;
+    margin: 0px 5px;
+}
+
+.menu-item a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item a:hover{
+    text-decoration: none;
+    color: rgb(233, 192, 8);
+
+}
